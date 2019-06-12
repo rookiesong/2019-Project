@@ -1,0 +1,10 @@
+clc;
+%二、时间序列模型分析
+%用autocorr进行自相关分析，给出运行结果图
+figure(1);
+autocorr(Ret);
+%用parcor进行偏相关分析，给出运行结果图
+figure(2);
+parcorr(Ret);
+%从图像观察，无法直接定阶，因此采用最终预报误差准则，并估计模型参数
+[na,nc,m]=fpearmax(Ret,5,5)
