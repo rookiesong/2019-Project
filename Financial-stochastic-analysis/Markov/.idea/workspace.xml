@@ -18,8 +18,8 @@
       <file leaf-file-name="Markov.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Markov.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+            <state relative-caret-position="232">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,7 +89,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,11 +185,13 @@
       <workItem from="1558186770306" duration="44000" />
       <workItem from="1558428791758" duration="123000" />
       <workItem from="1558429530967" duration="107000" />
+      <workItem from="1560908254708" duration="2166000" />
+      <workItem from="1560911030879" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22106000" />
+    <option name="totallyTimeSpent" value="25019000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -202,6 +204,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49902153" weight="0.3296875" />
       <window_info anchor="bottom" id="调试" order="7" weight="0.32905984" />
@@ -214,7 +217,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="消息" order="7" sideWeight="0.49932975" weight="0.32855567" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49804306" weight="0.3296875" />
-      <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49865952" weight="0.43219405" />
+      <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49865952" weight="0.35060638" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.20364584" />
@@ -248,6 +251,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Markov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Markov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2842">
+          <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Markov.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
@@ -310,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Markov.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+        <state relative-caret-position="232">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
