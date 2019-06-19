@@ -21,12 +21,16 @@ hold off
 legend('Close','SimClose');
 title('原始价格序列与仿真价格序列对比图');
 ylabel('收盘价格');
+%另一种价格对比显示
+figure(4);
+subplot(2,1,1),plot(Close,'r:');title('原始价格序列Close')
+subplot(2,1,2),plot(SimClose,'b-');title('仿真价格序列SimClose')
 
 %GARCH预测，预测结果展示和分析。
 numPeriods=50;%预测期数
 vF1=forecast(EstMdl,numPeriods);%不使用仿真结果预测
 vF2=forecast(EstMdl,numPeriods,'Y0',YSim);%使用仿真结果预测
-figure(4);
+figure(5);
 plot(VSim);
 hold on
 plot([numel(Ret)+1:numel(Ret)+50],vF1,'r:');
