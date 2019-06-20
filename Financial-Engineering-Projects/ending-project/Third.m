@@ -13,7 +13,7 @@ for i=1:199
     SimClose(i+1)=SimClose(i)*exp(YSim(i));
 end
 %原始价格序列与仿真价格序列对比及分析
-figure(3);
+figure(5);
 plot(Close,'r:');
 hold on
 plot(SimClose,'b-');
@@ -22,7 +22,7 @@ legend('Close','SimClose');
 title('原始价格序列与仿真价格序列对比图');
 ylabel('收盘价格');
 %另一种价格对比显示
-figure(4);
+figure(6);
 subplot(2,1,1),plot(Close,'r:');title('原始价格序列Close')
 subplot(2,1,2),plot(SimClose,'b-');title('仿真价格序列SimClose')
 
@@ -30,7 +30,7 @@ subplot(2,1,2),plot(SimClose,'b-');title('仿真价格序列SimClose')
 numPeriods=50;%预测期数
 vF1=forecast(EstMdl,numPeriods);%不使用仿真结果预测
 vF2=forecast(EstMdl,numPeriods,'Y0',YSim);%使用仿真结果预测
-figure(5);
+figure(7);
 plot(VSim);
 hold on
 plot([numel(Ret)+1:numel(Ret)+50],vF1,'r:');
